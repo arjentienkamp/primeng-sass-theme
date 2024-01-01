@@ -20,5 +20,12 @@
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/primefaces/primeng-sass-theme/issues"
+    },
+    "devDependencies": {
+        "node-sass": "4.5.0"
+    },
+    "scripts" : {
+        "build": "sass themes/datamaven/theme.scss ../ai-blocks/frontend/src/app/shared/styles/theme/theme.css",
+        "node-sass": "node-sass --output-style compressed -o dist/css src/scss"
     }
 }
